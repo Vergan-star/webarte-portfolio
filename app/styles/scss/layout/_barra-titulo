@@ -1,0 +1,5 @@
+.barra-titulo{
+	background:$gray-clean;
+	height:4em;
+	border:1px solid $gray-dark;
+}
