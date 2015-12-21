@@ -1,6 +1,8 @@
 //vendor
-@import 'vendor/_reset';
+@import 'vendor/_normalize';
 @import 'vendor/_gridsystem';
+
+
 
 //base
 @import 'base/_variables';
@@ -11,3 +13,5 @@
 @import 'layout/_header';
 @import 'layout/_banner';
 @import 'layout/_barra-titulo';
+
+@import 'vendor/_jquery.fatNav';

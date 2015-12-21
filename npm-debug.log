@@ -1,0 +1,248 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-minify-css' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/alexandresantos/projetos/Harvest-master/package.json
+5 warn package.json YourProject@0.0.1 No repository field.
+6 warn package.json YourProject@0.0.1 No license field.
+7 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/browser-sync/package.json
+8 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp/package.json
+9 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-autoprefixer/package.json
+10 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-concat/package.json
+11 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-imagemin/package.json
+12 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/package.json
+13 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-plumber/package.json
+14 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-sass/package.json
+15 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-sequence/package.json
+16 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-shell/package.json
+17 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-sourcemaps/package.json
+18 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-uglify/package.json
+19 verbose installManyTop reading scoped package data from /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-util/package.json
+20 info package.json gulp-sequence@0.4.1 No license field.
+21 verbose readDependencies loading dependencies from /Users/alexandresantos/projetos/Harvest-master/package.json
+22 verbose install gulp-minify-css is installed as 1.2.1
+23 silly cache add args [ 'gulp-minify-css', null ]
+24 verbose cache add spec gulp-minify-css
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'gulp-minify-css',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'gulp-minify-css',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: '*',
+25 silly cache add   type: 'range' }
+26 silly addNamed gulp-minify-css@*
+27 verbose addNamed "*" is a valid semver range for gulp-minify-css
+28 silly addNameRange { name: 'gulp-minify-css', range: '*', hasData: false }
+29 silly mapToRegistry name gulp-minify-css
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+33 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-css not in flight; fetching
+34 verbose request uri https://registry.npmjs.org/gulp-minify-css
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 23:23:52
+37 verbose request id 69639c93ee1c4f4d
+38 verbose etag "DNIUL9I7XY5IWOU5GG3BSYNBE"
+39 http request GET https://registry.npmjs.org/gulp-minify-css
+40 http 200 https://registry.npmjs.org/gulp-minify-css
+41 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 verbose headers   etag: '"6ANA235QRF8Y0UJ9STR2SDH0Q"',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'cache-control': 'max-age=60',
+41 verbose headers   'content-length': '63885',
+41 verbose headers   'accept-ranges': 'bytes',
+41 verbose headers   date: 'Tue, 15 Dec 2015 01:23:53 GMT',
+41 verbose headers   via: '1.1 varnish',
+41 verbose headers   age: '25',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'x-served-by': 'cache-iad2137-IAD',
+41 verbose headers   'x-cache': 'HIT',
+41 verbose headers   'x-cache-hits': '1',
+41 verbose headers   'x-timer': 'S1450142633.254286,VS0,VE0',
+41 verbose headers   vary: 'Accept' }
+42 silly get cb [ 200,
+42 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+42 silly get     etag: '"6ANA235QRF8Y0UJ9STR2SDH0Q"',
+42 silly get     'content-type': 'application/json',
+42 silly get     'cache-control': 'max-age=60',
+42 silly get     'content-length': '63885',
+42 silly get     'accept-ranges': 'bytes',
+42 silly get     date: 'Tue, 15 Dec 2015 01:23:53 GMT',
+42 silly get     via: '1.1 varnish',
+42 silly get     age: '25',
+42 silly get     connection: 'keep-alive',
+42 silly get     'x-served-by': 'cache-iad2137-IAD',
+42 silly get     'x-cache': 'HIT',
+42 silly get     'x-cache-hits': '1',
+42 silly get     'x-timer': 'S1450142633.254286,VS0,VE0',
+42 silly get     vary: 'Accept' } ]
+43 verbose get saving gulp-minify-css to /Users/alexandresantos/.npm/registry.npmjs.org/gulp-minify-css/.cache.json
+44 silly addNameRange number 2 { name: 'gulp-minify-css', range: '*', hasData: true }
+45 silly addNameRange versions [ 'gulp-minify-css',
+45 silly addNameRange   [ '0.0.1',
+45 silly addNameRange     '0.1.0',
+45 silly addNameRange     '0.2.0',
+45 silly addNameRange     '0.3.0',
+45 silly addNameRange     '0.3.1',
+45 silly addNameRange     '0.3.2',
+45 silly addNameRange     '0.3.3',
+45 silly addNameRange     '0.3.4',
+45 silly addNameRange     '0.3.5',
+45 silly addNameRange     '0.3.6',
+45 silly addNameRange     '0.3.7',
+45 silly addNameRange     '0.3.8',
+45 silly addNameRange     '0.3.9',
+45 silly addNameRange     '0.3.10',
+45 silly addNameRange     '0.3.11',
+45 silly addNameRange     '0.3.12',
+45 silly addNameRange     '0.3.13',
+45 silly addNameRange     '0.4.0',
+45 silly addNameRange     '0.4.1',
+45 silly addNameRange     '0.4.2',
+45 silly addNameRange     '0.4.3',
+45 silly addNameRange     '0.4.4',
+45 silly addNameRange     '0.4.5',
+45 silly addNameRange     '0.4.6',
+45 silly addNameRange     '0.5.0',
+45 silly addNameRange     '0.5.1',
+45 silly addNameRange     '1.0.0',
+45 silly addNameRange     '1.1.0',
+45 silly addNameRange     '1.1.1',
+45 silly addNameRange     '1.1.2',
+45 silly addNameRange     '1.1.2-1',
+45 silly addNameRange     '1.1.3',
+45 silly addNameRange     '1.1.4',
+45 silly addNameRange     '1.1.5',
+45 silly addNameRange     '1.1.6',
+45 silly addNameRange     '1.2.0',
+45 silly addNameRange     '1.2.1',
+45 silly addNameRange     '1.2.2' ] ]
+46 silly addNamed gulp-minify-css@1.2.2
+47 verbose addNamed "1.2.2" is a plain semver version for gulp-minify-css
+48 silly mapToRegistry name gulp-minify-css
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-css
+52 verbose addRemoteTarball https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz not in flight; adding
+53 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz',
+53 verbose addRemoteTarball   '5cbd4ea7eca85ac00877d99431612f4326c244de' ]
+54 info retry fetch attempt 1 at 23:23:53
+55 info attempt registry request try #1 at 23:23:53
+56 http fetch GET https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz
+57 http fetch 200 https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz
+58 silly fetchAndShaCheck shasum 5cbd4ea7eca85ac00877d99431612f4326c244de
+59 verbose addTmpTarball /var/folders/2k/lp7d1x0j7bx4dc_5qvqflslm0000gn/T/npm-1260-36ea275c/registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz not in flight; adding
+60 verbose addTmpTarball already have metadata; skipping unpack for gulp-minify-css@1.2.2
+61 silly cache afterAdd gulp-minify-css@1.2.2
+62 verbose afterAdd /Users/alexandresantos/.npm/gulp-minify-css/1.2.2/package/package.json not in flight; writing
+63 verbose afterAdd /Users/alexandresantos/.npm/gulp-minify-css/1.2.2/package/package.json written
+64 silly install resolved [ { name: 'gulp-minify-css',
+64 silly install resolved     description: 'Minify css with clean-css.',
+64 silly install resolved     version: '1.2.2',
+64 silly install resolved     repository:
+64 silly install resolved      { type: 'git',
+64 silly install resolved        url: 'git+https://github.com/murphydanger/gulp-minify-css.git' },
+64 silly install resolved     author:
+64 silly install resolved      { name: 'Murphy Danger',
+64 silly install resolved        email: 'jonathan@gnobel.com',
+64 silly install resolved        url: 'github.com/murphydanger' },
+64 silly install resolved     contributors: [ [Object] ],
+64 silly install resolved     keywords:
+64 silly install resolved      [ 'gulpplugin',
+64 silly install resolved        'minify',
+64 silly install resolved        'optimize',
+64 silly install resolved        'optimise',
+64 silly install resolved        'compress',
+64 silly install resolved        'css',
+64 silly install resolved        'clean-css' ],
+64 silly install resolved     license: 'MIT',
+64 silly install resolved     files: [ 'index.js' ],
+64 silly install resolved     scripts:
+64 silly install resolved      { pretest: 'eslint --fix --config @shinnn/node-legacy --env mocha index.js test',
+64 silly install resolved        test: 'node --harmony_destructuring node_modules/mocha/bin/_mocha --full-trace',
+64 silly install resolved        'test-dot': 'node --harmony_destructuring node_modules/mocha/bin/_mocha --reporter dot --full-trace',
+64 silly install resolved        coverage: 'node --harmony_destructuring node_modules/istanbul/lib/cli cover _mocha -- --full-trace',
+64 silly install resolved        coveralls: '${npm_package_scripts_coverage} && istanbul-coveralls' },
+64 silly install resolved     dependencies:
+64 silly install resolved      { 'clean-css': '^3.3.3',
+64 silly install resolved        'gulp-util': '^3.0.5',
+64 silly install resolved        'object-assign': '^4.0.1',
+64 silly install resolved        'readable-stream': '^2.0.0',
+64 silly install resolved        'vinyl-bufferstream': '^1.0.1',
+64 silly install resolved        'vinyl-sourcemaps-apply': '^0.2.0' },
+64 silly install resolved     devDependencies:
+64 silly install resolved      { '@shinnn/eslint-config-node-legacy': '^1.0.0',
+64 silly install resolved        chai: '^3.0.0',
+64 silly install resolved        eslint: '^1.10.2',
+64 silly install resolved        'from2-string': '^1.0.2',
+64 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+64 silly install resolved        'gulp-stylus': '^2.0.5',
+64 silly install resolved        istanbul: '^0.4.1',
+64 silly install resolved        'istanbul-coveralls': '^1.0.3',
+64 silly install resolved        mocha: '^2.2.5',
+64 silly install resolved        'stream-combiner2': '^1.1.1',
+64 silly install resolved        vinyl: '^1.1.0' },
+64 silly install resolved     gitHead: '7111af8316d1424a5c36f92b0afb2cb458c14de8',
+64 silly install resolved     bugs: { url: 'https://github.com/murphydanger/gulp-minify-css/issues' },
+64 silly install resolved     homepage: 'https://github.com/murphydanger/gulp-minify-css#readme',
+64 silly install resolved     _id: 'gulp-minify-css@1.2.2',
+64 silly install resolved     _shasum: '5cbd4ea7eca85ac00877d99431612f4326c244de',
+64 silly install resolved     _from: 'gulp-minify-css@*',
+64 silly install resolved     _npmVersion: '3.3.12',
+64 silly install resolved     _nodeVersion: '5.1.0',
+64 silly install resolved     _npmUser: { name: 'shinnn', email: 'snnskwtnb@gmail.com' },
+64 silly install resolved     dist:
+64 silly install resolved      { shasum: '5cbd4ea7eca85ac00877d99431612f4326c244de',
+64 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz' },
+64 silly install resolved     maintainers: [ [Object], [Object] ],
+64 silly install resolved     directories: {},
+64 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-minify-css/-/gulp-minify-css-1.2.2.tgz' } ]
+65 info install gulp-minify-css@1.2.2 into /Users/alexandresantos/projetos/Harvest-master
+66 info installOne gulp-minify-css@1.2.2
+67 verbose installOne of gulp-minify-css to /Users/alexandresantos/projetos/Harvest-master not in flight; installing
+68 verbose lock using /Users/alexandresantos/.npm/_locks/gulp-minify-css-61b6cf32cb275ec3.lock for /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+69 silly install write writing gulp-minify-css 1.2.2 to /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+70 verbose unbuild node_modules/gulp-minify-css
+71 info preuninstall gulp-minify-css@1.2.1
+72 info uninstall gulp-minify-css@1.2.1
+73 verbose unbuild rmStuff gulp-minify-css@1.2.1 from /Users/alexandresantos/projetos/Harvest-master/node_modules
+74 info postuninstall gulp-minify-css@1.2.1
+75 silly gentlyRm /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css is being purged from base /Users/alexandresantos/projetos/Harvest-master
+76 verbose gentlyRm don't care about contents; nuking /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+77 silly vacuum-fs purging /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+78 verbose unlock done using /Users/alexandresantos/.npm/_locks/gulp-minify-css-61b6cf32cb275ec3.lock for /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+79 verbose stack Error: EACCES: permission denied, unlink '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss'
+79 verbose stack     at Error (native)
+80 verbose cwd /Users/alexandresantos/projetos/Harvest-master
+81 error Darwin 15.0.0
+82 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save-dev" "gulp-minify-css"
+83 error node v4.2.1
+84 error npm  v2.14.7
+85 error path /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss
+86 error code EACCES
+87 error errno -13
+88 error syscall unlink
+89 error Error: EACCES: permission denied, unlink '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss'
+89 error     at Error (native)
+89 error  { [Error: EACCES: permission denied, unlink '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss']
+89 error   errno: -13,
+89 error   code: 'EACCES',
+89 error   syscall: 'unlink',
+89 error   path: '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss' }
+90 error Please try running this command again as root/Administrator.
+91 verbose exit [ -13, true ]
+92 verbose unbuild node_modules/gulp-minify-css
+93 silly gentlyRm /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css is being purged from base /Users/alexandresantos/projetos/Harvest-master
+94 verbose gentlyRm don't care about contents; nuking /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+95 silly vacuum-fs purging /Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css
+96 error error rolling back Error: EACCES: permission denied, unlink '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss'
+96 error error rolling back     at Error (native)
+96 error error rolling back  { [Error: EACCES: permission denied, unlink '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss']
+96 error error rolling back   errno: -13,
+96 error error rolling back   code: 'EACCES',
+96 error error rolling back   syscall: 'unlink',
+96 error error rolling back   path: '/Users/alexandresantos/projetos/Harvest-master/node_modules/gulp-minify-css/node_modules/.bin/cleancss' }
